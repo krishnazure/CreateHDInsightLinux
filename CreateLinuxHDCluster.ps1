@@ -1,4 +1,5 @@
-﻿Switch-AzureMode -Name AzureResourceManager
+# You need to have powershell enabled. If you havent please follow the steps here to install. https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/
+Switch-AzureMode -Name AzureResourceManager
 
 # Azure account and select a subscription (in case you have multiple subscriptions).
 Add-AzureAccount
